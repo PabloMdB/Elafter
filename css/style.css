@@ -53,7 +53,6 @@ body{
     font-size: 20px;
     text-align: center;
 }
-
 .botonInicio{
     background-color:rgb(103, 98, 98);
     color: rgba(0, 0, 0, 0.701);
@@ -111,20 +110,6 @@ body{
 .card a{
     color: aquamarine;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*EVENTOS*/
 
 .eventos{ 
@@ -169,7 +154,6 @@ body{
     font-size:90px;
     margin-top: 30px;
 }
-
 .gallery_eventos{
     margin: 30px;
 }
@@ -212,14 +196,6 @@ body{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
-
-
-
-
-
-
-
 /*VIDEOS*/
 .principal__video video{
     margin-top:80px;
@@ -235,8 +211,6 @@ body{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-decoration: underline;
 }
-
-
 /* GALERIA VIDEOS*/
 .videos{
     display: flex;
@@ -472,8 +446,4 @@ p .parrafo__footer{
     text-align: center;
     padding-top: 20px;
     border-top: 2px solid #777;
-}
-
-@media screen and (max-width:360px) {
-  
 }
