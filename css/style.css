@@ -1,0 +1,479 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(0, 0, 0);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif  
+}
+/*BARRA DE NAVEGACIÓN/NAVBAR*/
+.navbar{
+    opacity: .85;
+    background: black;
+}
+.nav-link{
+    font-family:monospace;
+    border-radius: 15px;
+}
+.nav-link:hover{
+    background: rgba(65, 67, 71, 0.703);
+    border-radius: 15px;
+}
+/*LOGO DE PAGINA*/
+.imagenLogo{
+    width: 100px;
+}
+/*INICIO PAGINA*/
+.main{ 
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(
+        0deg,
+        rgb(0, 0, 0),
+        rgba(239, 227, 227, 0)
+    ),url(/Imagenes/fiesta.jpg) 
+    ;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main .inicio__bienvenidos{
+    font-family:fantasy;
+    color:rgb(221, 221, 221);
+    font-style:initial;
+    text-align: center;
+    font-size: 10vw;
+    margin-top: 200px;
+    margin-bottom: 0px;
+}
+.main .parrafo{
+    font-size: 20px;
+    text-align: center;
+}
+
+.botonInicio{
+    background-color:rgb(103, 98, 98);
+    color: rgba(0, 0, 0, 0.701);
+    margin-top: 30%;
+    height: 30px;
+    width: 250px;
+    border-radius:10px;
+    font-size: 17px auto;
+}
+.botonInicio:hover{
+    opacity: .7;
+    background: rgb(10, 5, 5);
+    color: rgb(0, 238, 255);
+}
+/*ARTISTAS DESTACADOS INICIO*/
+.segundo__inicio{
+    margin: 20px 20px 20px 20px;
+}
+.segundo__inicio{
+    background-color: rgb(0, 0, 0);
+}
+.segundo__inicio h1{
+    color: rgba(181, 255, 249, 0.916);
+    font-family: fantasy;
+    text-align: center;
+    font-size: 10vw;
+    text-decoration: underline;
+    margin-bottom: 50px;
+    margin-top: 150px;
+}
+.card{
+    margin-top: 50px;
+    border: none;
+}
+.card img{
+    height: 270px;
+}
+.card .card-body{
+    text-align: center;
+    background-color: black;
+}
+.card h3{
+    color: white;
+    text-align: center;
+    font-size: 20px
+}
+.card p{
+    color: white;
+    border: 20px;
+    justify-content:space-evenly;
+}
+.card .parrafo_pequeño{
+    justify-content: center;
+}
+.card a{
+    color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*EVENTOS*/
+
+.eventos{ 
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(
+        0deg,
+        rgb(0, 0, 0),
+        rgba(239, 227, 227, 0)
+    ),url(/Imagenes/imagenevento.png) 
+    ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.eventos h1{
+    font-family:fantasy;
+    color:rgb(252, 249, 249);
+    font-style:initial;
+    text-align: center;
+    font-size: 90px;
+    margin-top: 200px;
+    margin-bottom: 90px;
+}
+.eventos p{
+    height: 100px;
+    margin-bottom: 300px;
+    font-size: 30px;
+    padding: 100px;
+    text-align: center;
+}
+.segundo_evento h1{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(239, 239, 239);
+    text-decoration:underline;
+    text-align: center;
+    font-size:90px;
+    margin-top: 30px;
+}
+
+.gallery_eventos{
+    margin: 30px;
+}
+
+.image_eventos{ 
+    text-align: center;
+    border-radius: 20px;
+}
+.imagenEvento{
+    padding: 10px;
+    height:100%  ;
+    width: 100%;
+    border-radius: 30px;
+}
+.image_eventos h1{
+    text-align:center;
+    font-size: 50px;
+    color: white;
+    margin: auto;
+}
+.image_eventos p{
+    text-align:center;
+    margin: 50px;
+    color: white;
+    font-size:20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.image_eventos {
+    color: rgba(0, 195, 255, 0.788);
+}
+.image_eventos a:hover{
+    opacity: 0.6; 
+    color: rgba(238, 242, 28, 0.957);
+}
+.mas_info{
+    text-align: center;
+    font-size: 20px;
+    color: rgba(122, 254, 34, 0.744);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+/*VIDEOS*/
+.principal__video video{
+    margin-top:80px;
+    max-width:100%;
+    max-height: 100%;
+}
+.principal__video h1{
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 120px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+}
+
+
+/* GALERIA VIDEOS*/
+.videos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.divVideo{
+    margin: 10px;
+    border: double grey 2px;
+    opacity: .8;
+   
+}
+.divVideo img{
+    width: 300px;
+    height: 300px;
+}
+.divVideo:hover{
+    opacity: 1;
+    border: solid white 2px;
+}
+/*LANZAMIENTOS*/
+.lanzamientos{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(
+        0deg,
+        rgb(0, 0, 0),
+        rgba(239, 227, 227, 0)
+    ),url(/Imagenes/sonar23\ \(1\).jpg) 
+    ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}
+.lanzamientos h1{
+    font-family:fantasy;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: underline;
+    font-size:14vw;
+    margin-top: 150px;
+    margin-bottom: 120px;
+}
+.image_lanzamiento .titulo_lanzamiento{
+    text-decoration: none;
+    color: rgb(219, 217, 217);
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.image_lanzamiento{
+    margin: 50px;
+}
+.imagenlanzamiento{
+    height:100%  ;
+    width: 100%;
+    border-radius: 30px;
+}
+.image_lanzamiento h1{
+    font-size: 60px;
+    color: rgb(96, 12, 12);
+}
+.image_lanzamiento p{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size:20px;
+}
+.image_eventos {
+    color: rgba(28, 0, 112, 0.788);
+}
+
+.image_lanzamiento a:hover{
+    color: rgb(52, 95, 56);
+}
+.mas_info{
+    text-align: center;
+    font-size: 20px;
+    color: rgba(122, 254, 34, 0.744);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* contacto*/
+  .contenedor{
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width:100%;
+    background: url(/Imagenes/fiesta.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.formulario{
+    margin-left: 25%;
+    justify-content: center;
+    background-color: rgb(103, 99, 99, 0.6);
+    border-radius: 40px;
+    border-color: #333;
+    border-style: double;
+   
+    width: 50%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.contenedor h2{
+    margin-top: 35px;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+}
+
+.input-contenedor{
+    position: relative;
+    margin:10px;
+    margin-left: 10px;
+    border-bottom: 3px solid #302d2d;
+}
+.input-contenedor label{
+    position: absolute;
+    top: 35px;
+    left:10px;
+    transform: translateY(-45%);
+    color: #000000;
+    font-size: 20px;
+    pointer-events: none;
+    transition: .3s;
+    font-weight: Impact,'Arial Narrow Bold', sans-serif;
+}
+input:focus ~ label,
+input:valid ~ label{
+    top: -3px;
+}
+.input-contenedor input{
+    width: 100%;
+    height:60px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.input-contenedor i{
+    position: absolute;
+    color: #51a44982;
+    font-size: 50px;
+    top: 40px;
+    right: 8px;
+}
+.olvidar{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 3vw;
+    color:#56c5d6;
+    display: flex;
+    margin: 20px;
+}
+
+.olvidar label a{
+    color: #000000;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 3vw;
+}
+.olvidar label a:hover{
+    text-decoration: underline;
+}
+.button_formulario{
+
+    max-width: auto;
+    height: 55px;
+    padding: 10px;
+    background: #4e4949;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 3vw;
+    transition: .5s;
+    margin-bottom: 20px;
+}
+.button_formulario:hover{
+    opacity: .7;
+    background: rgb(0, 0, 0);
+    color: rgb(0, 238, 255);
+}
+.registrar{
+    font-size: 17px;
+    color: #000000;
+    text-align: center;
+    margin: 20px 0 10px;
+
+}
+.registrar p a{
+    text-decoration: none;
+    color: #2619e7;
+    font-weight: bold;
+    transition: .3s;
+}
+.registrar p a:hover{
+    text-decoration: underline;
+}
+
+/*footer definitivo*/
+.footer {
+    background-color: #322f2f;
+    color: #cccccc;
+    padding: 30px 0;
+    text-align: center;
+}
+.footer-section {
+    width: 40%;
+    display: inline;
+    padding: 20px, 20px;
+    box-sizing: border-box;
+}
+.footer-section h3 {
+    font-size: 30px;
+}
+
+p .parrafo__footer{
+    margin: 10px;
+    font-size: 5px;
+}
+.footer-content{
+    margin-bottom: 20px;
+}
+.footer-content a{
+    font-size: 25px;
+
+}
+.footer-bottom {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 20px;
+    border-top: 2px solid #777;
+}
+
+@media screen and (max-width:360px) {
+  
+}
