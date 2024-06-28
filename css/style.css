@@ -90,6 +90,9 @@ body{
 .card img{
     height: 270px;
 }
+.card img:hover{
+    opacity: .95;
+}
 .card .card-body{
     text-align: center;
     background-color: black;
@@ -309,110 +312,39 @@ body{
 }
 .formulario{
     margin-left: 25%;
-    justify-content: center;
+    padding: 40px;
     background-color: rgb(103, 99, 99, 0.6);
     border-radius: 40px;
-    border-color: #333;
+    border-color: #000000;
     border-style: double;
-   
     width: 50%;
-    margin-top: 150px;
+    margin-top: 130px;
     margin-bottom: 100px;
 }
 .contenedor h2{
-    margin-top: 35px;
-    font-size: 30px;
+    margin-top: px;
+    font-size: 40px;
     color: #000000;
     text-align: center;
 }
-
-.input-contenedor{
-    position: relative;
-    margin:10px;
-    margin-left: 10px;
-    border-bottom: 3px solid #302d2d;
+.exampleInputEmail1{
+    color:red;
 }
-.input-contenedor label{
-    position: absolute;
-    top: 35px;
-    left:10px;
-    transform: translateY(-45%);
-    color: #000000;
+.form-label{
     font-size: 20px;
-    pointer-events: none;
-    transition: .3s;
-    font-weight: Impact,'Arial Narrow Bold', sans-serif;
+    color:rgb(0, 0, 0);
 }
-input:focus ~ label,
-input:valid ~ label{
-    top: -3px;
+.form-check-label{
+    color: black;
 }
-.input-contenedor input{
-    width: 100%;
-    height:60px;
-    background-color: transparent;
-    border: none;
-    outline: none;
+.form-text{
+    color: black;
 }
-.input-contenedor i{
-    position: absolute;
-    color: #51a44982;
-    font-size: 50px;
-    top: 40px;
-    right: 8px;
-}
-.olvidar{
-    text-align: center;
-    margin-top: 10px;
-    font-size: 3vw;
-    color:#56c5d6;
-    display: flex;
-    margin: 20px;
-}
-
-.olvidar label a{
-    color: #000000;
-    text-decoration: none;
-    transition: .3s;
-    font-size: 3vw;
-}
-.olvidar label a:hover{
-    text-decoration: underline;
-}
-.button_formulario{
-
-    max-width: auto;
-    height: 55px;
-    padding: 10px;
-    background: #4e4949;
-    border-radius: 20px;
-    margin-top: 20px;
-    font-size: 3vw;
-    transition: .5s;
-    margin-bottom: 20px;
-}
-.button_formulario:hover{
+.btn:hover{
     opacity: .7;
-    background: rgb(0, 0, 0);
+    background: rgb(74, 68, 68);
     color: rgb(0, 238, 255);
 }
-.registrar{
-    font-size: 17px;
-    color: #000000;
-    text-align: center;
-    margin: 20px 0 10px;
-
-}
-.registrar p a{
-    text-decoration: none;
-    color: #2619e7;
-    font-weight: bold;
-    transition: .3s;
-}
-.registrar p a:hover{
-    text-decoration: underline;
-}
-
 /*footer definitivo*/
 .footer {
     background-color: #322f2f;

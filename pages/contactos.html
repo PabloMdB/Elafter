@@ -39,52 +39,43 @@
             </div>
         </nav>
     </header>
-    <main class="session">
-        <div class="contenedor_uno">
             <form class="formulario" action="">
               <h2>Iniciar Sesión</h2>
-               <div class="input-contenedor">
-                  <i class="fa-sharp fa-regular fa-envelope"></i>
-                <input type="email" required>
-                  <label for="#">Correo electronico</label>
-                    </div>
-                    <div class="input-contenedor">
-                        <i class="fa-solid fa-lock"></i>
-                        <input type="password" required>
-                        <label for="#">Contraseña</label>
-                    </div>
-                    <div class="olvidar">
-                        <label for="#">
-                        <input type="checkbox"> Recordar
-                        <a href="#">olvide mi contraseña</a>
-                        </label>
-                    </div>
-                    <div class="registrar">
-                        <button class="button_formulario">Acceder</button>
-                        <p>No tengo cuenta <a href="#">Crear una</a></p>
-                    </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Correo electronico</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+              <button type="submit" class="btn btn-secondary">ACEPTAR</button>
              </form>
-        </div>
-    </main>
+    
     <footer class="footer"> 
-            <div class="footer-content">
-                <div class="footer-section">
-                    <h3>Sobre nosotros</h3>
-                    <p>Buscando la conexion en los sonidos</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Número de Teléfono</h3>
-                    <p>221-5711015</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Correo Electrónico</h3>
-                    <p>Pablo.marinetti10@gmail.com</p>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                &copy; 2024 Pablo Marinetti | Todos los derechos reservados
-            </div>
-        </footer>
+      <div class="footer-content">
+          <div class="footer-sectione">
+              <h3>Sobre nosotros</h3>
+              <p>Buscando la conexion en los sonidos</p>
+          </div>
+          <div class="footer-section">
+              <h3>Número de Teléfono</h3>
+              <a href="tel:+5492215711015">+5492215711015</a>
+          </div>
+          <div class="footer-section">
+              <h3>Correo Electrónico</h3>
+              <a href="mailto:pablo.marinetti@gmail.com">Pablo.marinetti@gmail.com</a>
+          </div>
+      </div>
+      <div class="footer-bottom">
+          &copy; 2024 Pablo Marinetti | Todos los derechos reservados
+      </div>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
