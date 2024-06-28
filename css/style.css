@@ -35,7 +35,7 @@ body{
         0deg,
         rgb(0, 0, 0),
         rgba(239, 227, 227, 0)
-    ),url(/Imagenes/fiesta.jpg) 
+    ),url(../Imagenes/fiesta.jpg) 
     ;
     background-repeat: no-repeat;
     background-position: center;
@@ -127,7 +127,7 @@ body{
         0deg,
         rgb(0, 0, 0),
         rgba(239, 227, 227, 0)
-    ),url(/Imagenes/imagenevento.png) 
+    ),url(../Imagenes/imagenevento.png) 
     ;
     background-repeat: no-repeat;
     background-position: center;
@@ -247,7 +247,7 @@ body{
         0deg,
         rgb(0, 0, 0),
         rgba(239, 227, 227, 0)
-    ),url(/Imagenes/sonar23\ \(1\).jpg) 
+    ),url(../Imagenes/SONAR.webp) 
     ;
     background-repeat: no-repeat;
     background-position: center;
@@ -306,7 +306,7 @@ body{
     align-items: center;
     height: 100%;
     width:100%;
-    background: url(/Imagenes/fiesta.jpg);
+    background: url(../Imagenes/fiesta.jpg);
     background-position: center;
     background-size: cover;
 }
