@@ -48,17 +48,14 @@ body{
     .parrafo{
         font-size: 20px;
         text-align: center;
-    }
-
-
-.botonInicio{
+    }}
+    .botonInicio{
     justify-content: center;
     background-color:rgb(40, 53, 53);
     color: rgb(9, 196, 243);
     margin-top: 30%;
     max-height: 30px;
     width: 200px;
-
 }
 .botonInicio{
     background-color:rgb(103, 98, 98);
@@ -66,18 +63,18 @@ body{
     margin-top: 30%;
     height: 20px;
     width: 25px;
-
     border-radius:10px;
     font-size: 17px auto;
     &:hover{
         opacity: .7;
         background: rgb(10, 5, 5);
         color: rgb(0, 238, 255);}
-        color: rgb(0, 238, 255);}}
-
-.segundo__inicio{
+        }
+    .segundo__inicio{
     margin: 20px 20px 20px 20px;
     background-color: rgb(0, 0, 0);
+    h2{
+        color: rgba(67, 87, 85, 0.916);
     h1{
         color: rgba(181, 255, 249, 0.916);
         font-family: fantasy;
@@ -87,17 +84,26 @@ body{
         margin-bottom: 50px;
         margin-top: 150px;
     }
-    .card{
-        margin-top: 20px;
+    .card{margin-top: 20px;
         border: none;
         img{
             height: auto;
+
+        margin-top: 50px;
+        border: none;
+        img{
+            height: 270px;
             &:hover{
                 opacity: .95;
             }
         }
         .card-body{
             text-align: center;
+
+            background-color: rgb(0, 0, 0);
+        }
+        h3{
+            color: rgb(253, 253, 253);
             background-color: black;
         }
         h3{
@@ -106,6 +112,9 @@ body{
             font-size: 23px
         }
         p{
+            padding: auto;
+            color: rgb(255, 255, 255);
+            border: 0px;
             color: white;
             border: 20px;
             justify-content:space-evenly;
@@ -114,8 +123,8 @@ body{
             justify-content: center;
         }
         a{
-            color: rgb(12, 241, 165);
-        }
+            color: rgb(18, 182, 211);
+            color: rgb(12, 241, 165);}        }
     }
 }
 /*PAGINA EVENTOS*/
@@ -138,6 +147,32 @@ body{
     background-size:cover;
     h1{
         font-family:fantasy;
+        color:rgb(221, 221, 221);
+        font-style:initial;
+        text-align: center;
+        font-size: 8vw;
+        margin-top: 250px;
+    }
+    p{  padding: 0px;
+        text-align: center;
+        font-size: 3vw ;
+        margin-top: 50px;
+        margin-bottom: 200px;
+    }
+}
+.segundo_evento {
+    h1{    
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color:rgb(221, 221, 221);
+        font-style:unset;
+        text-align: center;
+        font-size: 9vw;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        }
+    .gallery_eventos{
+        margin: 20px; 
+        .image_eventos{
         color:rgb(252, 249, 249);
         font-style:initial;
         text-align: center;
@@ -174,10 +209,8 @@ body{
             }
             h1{
                 text-align:center;
-                font-size:30px;
-
+                font-size: 30px;
                 font-size: 100%;
-
                 color: white;
                 margin: auto;
             }
@@ -190,17 +223,19 @@ body{
                 margin-bottom: 10px;
             }
             a{  padding: 5px;
+
                 margin: 40px;
                 color: rgb(248, 248, 248);
                 font-size:15px;
                 margin-top: 10px;
                 margin-bottom: 30px;
             }
-            a{  
+            a{
                 text-decoration: none;
                 padding: 5px;
                 color: rgba(49, 145, 180, 0.788);
                 &:hover{
+                    margin: 10px;
                     margin: 20px;
                     border-radius: 30px;
                     background-color: rgb(0, 247, 255);
@@ -211,7 +246,43 @@ body{
         }
 }}
 /*PAGINA VIDEOS*/
+.main__video{
+    margin-top: 200px;
+    margin-bottom: 100px;
+    h3{
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color:rgb(221, 221, 221);
+        text-decoration: underline;
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        padding: auto;
+    }
+    
+}
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+}
 
+.image {
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+        &:hover{
+            background-color: rgb(0, 247, 255);
+            opacity: 0.6; 
+            color: rgba(0, 0, 0, 0.957);
+        }
+}
 /* PAGINA DE LANZAMIENTOS*/
 .lanzamientos{
     display: flex;
@@ -277,7 +348,7 @@ body{
     background-color: #322f2f;
     color: #cccccc;
     padding: 30px 0;
-    text-align: center;
+    text-align: center;}
     .footer-content{
         margin-top:10px;
         margin-bottom: 12px;
@@ -285,7 +356,7 @@ body{
     .footer-section {
     width: 100%;
     display: block;
-    padding: 20px, 20px;
+    padding: 20px, 20px;}
     h3 {
         font-size: 20px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -303,5 +374,4 @@ body{
         text-align: center;
         padding-top: 25px;
         border-top: 3px solid #777;
-    }
-}
+    }}

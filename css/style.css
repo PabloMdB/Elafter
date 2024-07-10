@@ -49,18 +49,26 @@ body {
   font-size: 20px;
   text-align: center;
 }
-<<<<<<< HEAD
-.main .botonInicio {
+
+.botonInicio {
   justify-content: center;
   background-color: rgb(40, 53, 53);
   color: rgb(9, 196, 243);
   margin-top: 30%;
   max-height: 30px;
   width: 200px;
+}
+
+.botonInicio {
+  background-color: rgb(103, 98, 98);
+  color: rgba(0, 0, 0, 0.701);
+  margin-top: 30%;
+  height: 20px;
+  width: 25px;
   border-radius: 10px;
   font-size: 17px auto;
 }
-.main .botonInicio:hover {
+.botonInicio:hover {
   opacity: 0.7;
   background: rgb(10, 5, 5);
   color: rgb(0, 238, 255);
@@ -69,31 +77,12 @@ body {
 .segundo__inicio {
   margin: 20px 20px 20px 20px;
   background-color: rgb(0, 0, 0);
+  /*PAGINA EVENTOS*/
 }
 .segundo__inicio h2 {
   color: rgba(67, 87, 85, 0.916);
-  font-family: fantasy;
-  text-align: center;
-  font-size: 10vw;
-  text-decoration: underline;
-  margin-bottom: 50px;
-  margin-top: 150px;
 }
-.segundo__inicio .card {
-  margin-top: 20px;
-  border: none;
-}
-.segundo__inicio .card img {
-  height: auto;
-=======
-
-
-
-.segundo__inicio {
-  margin: 20px 20px 20px 20px;
-  background-color: rgb(0, 0, 0);
-}
-.segundo__inicio h1 {
+.segundo__inicio h2 h1 {
   color: rgba(181, 255, 249, 0.916);
   font-family: fantasy;
   text-align: center;
@@ -102,57 +91,50 @@ body {
   margin-bottom: 50px;
   margin-top: 150px;
 }
-.segundo__inicio .card {
+.segundo__inicio h2 .card {
+  margin-top: 20px;
+  border: none;
+}
+.segundo__inicio h2 .card img {
+  height: auto;
   margin-top: 50px;
   border: none;
 }
-.segundo__inicio .card img {
+.segundo__inicio h2 .card img  {
   height: 270px;
->>>>>>> e00046b4c4825254af29f7d4f46caed243ded095
 }
-.segundo__inicio .card img:hover {
+.segundo__inicio h2 .card img :hover {
   opacity: 0.95;
 }
-.segundo__inicio .card .card-body {
+.segundo__inicio h2 .card img .card-body {
   text-align: center;
-<<<<<<< HEAD
   background-color: rgb(0, 0, 0);
 }
-.segundo__inicio .card h3 {
+.segundo__inicio h2 .card img h3 {
   color: rgb(253, 253, 253);
-=======
   background-color: black;
 }
-.segundo__inicio .card h3 {
+.segundo__inicio h2 .card img h3 {
   color: white;
->>>>>>> e00046b4c4825254af29f7d4f46caed243ded095
   text-align: center;
   font-size: 23px;
 }
-.segundo__inicio .card p {
-<<<<<<< HEAD
+.segundo__inicio h2 .card img p {
   padding: auto;
   color: rgb(255, 255, 255);
   border: 0px;
-=======
   color: white;
   border: 20px;
->>>>>>> e00046b4c4825254af29f7d4f46caed243ded095
   justify-content: space-evenly;
 }
-.segundo__inicio .card .parrafo_pequeño {
+.segundo__inicio h2 .card img .parrafo_pequeño {
   justify-content: center;
 }
-.segundo__inicio .card a {
-<<<<<<< HEAD
+.segundo__inicio h2 .card img a {
   color: rgb(18, 182, 211);
-=======
   color: rgb(12, 241, 165);
->>>>>>> e00046b4c4825254af29f7d4f46caed243ded095
 }
-
-/*PAGINA EVENTOS*/
-.eventos {
+.segundo__inicio .eventos {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -165,24 +147,27 @@ body {
   background-position: center;
   background-size: cover;
 }
-.eventos h1 {
+.segundo__inicio .eventos h1 {
   font-family: fantasy;
-<<<<<<< HEAD
   color: rgb(221, 221, 221);
   font-style: initial;
   text-align: center;
   font-size: 8vw;
   margin-top: 250px;
 }
-.eventos p {
+.segundo__inicio .eventos p {
   padding: 0px;
   text-align: center;
   font-size: 3vw;
   margin-top: 50px;
   margin-bottom: 200px;
 }
-
-.segundo_evento h1 {
+.segundo__inicio .segundo_evento {
+  /*PAGINA VIDEOS*/
+  /* PAGINA DE LANZAMIENTOS*/
+  /*FOOTER PAGINA DE PIE*/
+}
+.segundo__inicio .segundo_evento h1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: rgb(221, 221, 221);
   font-style: unset;
@@ -190,7 +175,11 @@ body {
   font-size: 9vw;
   margin-top: 80px;
   margin-bottom: 100px;
-=======
+}
+.segundo__inicio .segundo_evento .gallery_eventos {
+  margin: 20px;
+}
+.segundo__inicio .segundo_evento .gallery_eventos .image_eventos {
   color: rgb(252, 249, 249);
   font-style: initial;
   text-align: center;
@@ -198,92 +187,75 @@ body {
   margin-top: 160px;
   margin-bottom: 0px;
 }
-.eventos p {
+.segundo__inicio .segundo_evento .gallery_eventos p {
   height: 100px;
   margin-bottom: 300px;
   font-size: 20px;
   padding: 50px;
   text-align: center;
 }
-
-.segundo_evento h1 {
+.segundo__inicio .segundo_evento .segundo_evento h1 {
   font-family: Arial, Helvetica, sans-serif;
   color: rgb(239, 239, 239);
   text-decoration: underline;
   text-align: center;
   font-size: 100%;
   margin-top: 30px;
->>>>>>> e00046b4c4825254af29f7d4f46caed243ded095
 }
-.segundo_evento .gallery_eventos {
+.segundo__inicio .segundo_evento .segundo_evento .gallery_eventos {
   margin: 20px;
 }
-.segundo_evento .gallery_eventos .image_eventos {
-<<<<<<< HEAD
-=======
+.segundo__inicio .segundo_evento .segundo_evento .gallery_eventos .image_eventos {
   padding: 10px;
->>>>>>> e00046b4c4825254af29f7d4f46caed243ded095
   text-align: center;
   border-radius: 20px;
 }
-.segundo_evento .gallery_eventos .image_eventos .imagenEvento {
+.segundo__inicio .segundo_evento .segundo_evento .gallery_eventos .image_eventos .imagenEvento {
   height: 100%;
   width: 100%;
   border-radius: 30px;
 }
-.segundo_evento .gallery_eventos .image_eventos h1 {
+.segundo__inicio .segundo_evento .segundo_evento .gallery_eventos .image_eventos h1 {
   text-align: center;
-<<<<<<< HEAD
   font-size: 30px;
-=======
   font-size: 100%;
->>>>>>> e00046b4c4825254af29f7d4f46caed243ded095
   color: white;
   margin: auto;
 }
-.segundo_evento .gallery_eventos .image_eventos p {
+.segundo__inicio .segundo_evento .segundo_evento .gallery_eventos .image_eventos p {
   text-align: center;
-<<<<<<< HEAD
   margin: 10px;
   color: rgb(248, 248, 248);
   font-size: 15px;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.segundo_evento .gallery_eventos .image_eventos a {
+.segundo__inicio .segundo_evento .segundo_evento .gallery_eventos .image_eventos a {
   padding: 5px;
-=======
   margin: 40px;
   color: rgb(248, 248, 248);
   font-size: 15px;
   margin-top: 10px;
   margin-bottom: 30px;
 }
-.segundo_evento .gallery_eventos .image_eventos a {
->>>>>>> e00046b4c4825254af29f7d4f46caed243ded095
+.segundo__inicio .segundo_evento .segundo_evento .gallery_eventos .image_eventos a {
   text-decoration: none;
   padding: 5px;
   color: rgba(49, 145, 180, 0.788);
 }
-.segundo_evento .gallery_eventos .image_eventos a:hover {
-<<<<<<< HEAD
+.segundo__inicio .segundo_evento .segundo_evento .gallery_eventos .image_eventos a:hover {
   margin: 10px;
-=======
   margin: 20px;
->>>>>>> e00046b4c4825254af29f7d4f46caed243ded095
   border-radius: 30px;
   background-color: rgb(0, 247, 255);
   opacity: 0.6;
   color: rgba(0, 0, 0, 0.957);
 }
-
-/*PAGINA VIDEOS*/
-<<<<<<< HEAD
-.main__video {
+.segundo__inicio .segundo_evento .main__video {
   margin-top: 200px;
   margin-bottom: 100px;
 }
-.main__video h3 {
+.segundo__inicio .segundo_evento .main__video h3 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   color: rgb(221, 221, 221);
   text-decoration: underline;
@@ -292,36 +264,28 @@ body {
   margin-bottom: 100px;
   padding: auto;
 }
-
-.image-gallery {
+.segundo__inicio .segundo_evento .image-gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 20px;
   padding: 20px;
 }
-
-.image {
+.segundo__inicio .segundo_evento .image {
   overflow: hidden;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
-.image img {
+.segundo__inicio .segundo_evento .image img {
   width: 100%;
   height: 100%;
   display: block;
 }
-.image img:hover {
+.segundo__inicio .segundo_evento .image img:hover {
   background-color: rgb(0, 247, 255);
   opacity: 0.6;
   color: rgba(0, 0, 0, 0.957);
 }
-=======
-
->>>>>>> e00046b4c4825254af29f7d4f46caed243ded095
-
-/* PAGINA DE LANZAMIENTOS*/
-.lanzamientos {
+.segundo__inicio .segundo_evento .lanzamientos {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -334,7 +298,7 @@ body {
   background-position: center;
   background-size: cover;
 }
-.lanzamientos h1 {
+.segundo__inicio .segundo_evento .lanzamientos h1 {
   font-family: fantasy;
   color: rgb(0, 0, 0);
   text-align: center;
@@ -343,64 +307,62 @@ body {
   margin-top: 150px;
   margin-bottom: 120px;
 }
-.lanzamientos .image_lanzamiento img {
+.segundo__inicio .segundo_evento .lanzamientos .image_lanzamiento img {
   padding: auto;
   height: 100%;
   width: 100%;
   border-radius: 30px;
 }
-.lanzamientos .image_lanzamiento h1 {
+.segundo__inicio .segundo_evento .lanzamientos .image_lanzamiento h1 {
   font-size: 20px;
   color: rgb(96, 12, 12);
 }
-.lanzamientos .image_lanzamiento p {
+.segundo__inicio .segundo_evento .lanzamientos .image_lanzamiento p {
   margin: 20px;
   text-align: center;
   font-size: 20% px;
 }
-.lanzamientos .image_lanzamiento .center {
+.segundo__inicio .segundo_evento .lanzamientos .image_lanzamiento .center {
   text-align: center;
 }
-.lanzamientos .image_lanzamiento .escuchalo {
+.segundo__inicio .segundo_evento .lanzamientos .image_lanzamiento .escuchalo {
   color: rgb(255, 255, 255);
   text-align: center;
 }
-.lanzamientos .image_lanzamiento .escuchalo:hover {
+.segundo__inicio .segundo_evento .lanzamientos .image_lanzamiento .escuchalo:hover {
   background-color: rgba(0, 255, 255, 0.425);
   color: black;
   border-radius: 25px;
   padding: 2px;
 }
-
-/*FOOTER PAGINA DE PIE*/
-.footer {
+.segundo__inicio .segundo_evento .footer {
   background-color: #322f2f;
   color: #cccccc;
   padding: 30px 0;
   text-align: center;
 }
-.footer .footer-content {
+.segundo__inicio .segundo_evento .footer-content {
   margin-top: 10px;
   margin-bottom: 12px;
 }
-.footer .footer-section {
+.segundo__inicio .segundo_evento .footer-section {
   width: 100%;
   display: block;
   padding: 20px, 20px;
 }
-.footer .footer-section h3 {
+.segundo__inicio .segundo_evento h3 {
   font-size: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.footer .footer-section p {
+.segundo__inicio .segundo_evento p {
   margin: 10px;
   font-size: 20px;
 }
-.footer .footer-section a {
+.segundo__inicio .segundo_evento a {
   margin: 10px;
   font-size: 20px;
 }
-.footer .footer-bottom {
+.segundo__inicio .footer-bottom {
   font-size: 15px;
   text-align: center;
   padding-top: 25px;
