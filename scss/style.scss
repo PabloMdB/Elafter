@@ -49,7 +49,7 @@ body{
         font-size: 20px;
         text-align: center;
     }
-<<<<<<< HEAD
+
 
 .botonInicio{
     justify-content: center;
@@ -58,7 +58,7 @@ body{
     margin-top: 30%;
     max-height: 30px;
     width: 200px;
-=======
+
 }
 .botonInicio{
     background-color:rgb(103, 98, 98);
@@ -66,28 +66,20 @@ body{
     margin-top: 30%;
     height: 20px;
     width: 25px;
->>>>>>> e00046b4c4825254af29f7d4f46caed243ded095
+
     border-radius:10px;
     font-size: 17px auto;
     &:hover{
         opacity: .7;
         background: rgb(10, 5, 5);
-<<<<<<< HEAD
-        color: rgb(0, 238, 255);}}
-=======
         color: rgb(0, 238, 255);}
->>>>>>> e00046b4c4825254af29f7d4f46caed243ded095
-}
+        color: rgb(0, 238, 255);}}
+
 .segundo__inicio{
     margin: 20px 20px 20px 20px;
     background-color: rgb(0, 0, 0);
-<<<<<<< HEAD
-    h2{
-        color: rgba(67, 87, 85, 0.916);
-=======
     h1{
         color: rgba(181, 255, 249, 0.916);
->>>>>>> e00046b4c4825254af29f7d4f46caed243ded095
         font-family: fantasy;
         text-align: center;
         font-size: 10vw;
@@ -96,57 +88,33 @@ body{
         margin-top: 150px;
     }
     .card{
-<<<<<<< HEAD
         margin-top: 20px;
         border: none;
         img{
             height: auto;
-=======
-        margin-top: 50px;
-        border: none;
-        img{
-            height: 270px;
->>>>>>> e00046b4c4825254af29f7d4f46caed243ded095
             &:hover{
                 opacity: .95;
             }
         }
         .card-body{
             text-align: center;
-<<<<<<< HEAD
-            background-color: rgb(0, 0, 0);
-        }
-        h3{
-            color: rgb(253, 253, 253);
-=======
             background-color: black;
         }
         h3{
             color: white;
->>>>>>> e00046b4c4825254af29f7d4f46caed243ded095
             text-align: center;
             font-size: 23px
         }
         p{
-<<<<<<< HEAD
-            padding: auto;
-            color: rgb(255, 255, 255);
-            border: 0px;
-=======
             color: white;
             border: 20px;
->>>>>>> e00046b4c4825254af29f7d4f46caed243ded095
             justify-content:space-evenly;
         }
         .parrafo_pequeño{
             justify-content: center;
         }
         a{
-<<<<<<< HEAD
-            color: rgb(18, 182, 211);
-=======
             color: rgb(12, 241, 165);
->>>>>>> e00046b4c4825254af29f7d4f46caed243ded095
         }
     }
 }
@@ -170,34 +138,6 @@ body{
     background-size:cover;
     h1{
         font-family:fantasy;
-<<<<<<< HEAD
-        color:rgb(221, 221, 221);
-        font-style:initial;
-        text-align: center;
-        font-size: 8vw;
-        margin-top: 250px;
-    }
-    p{  padding: 0px;
-        text-align: center;
-        font-size: 3vw ;
-        margin-top: 50px;
-        margin-bottom: 200px;
-    }
-}
-.segundo_evento {
-    h1{    
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        color:rgb(221, 221, 221);
-        font-style:unset;
-        text-align: center;
-        font-size: 9vw;
-        margin-top: 80px;
-        margin-bottom: 100px;
-        }
-    .gallery_eventos{
-        margin: 20px; 
-        .image_eventos{
-=======
         color:rgb(252, 249, 249);
         font-style:initial;
         text-align: center;
@@ -225,7 +165,6 @@ body{
         margin: 20px; 
         .image_eventos{
             padding: 10px;
->>>>>>> e00046b4c4825254af29f7d4f46caed243ded095
             text-align: center;
             border-radius: 20px;
             .imagenEvento{
@@ -235,17 +174,15 @@ body{
             }
             h1{
                 text-align:center;
-<<<<<<< HEAD
-                font-size: 30px;
-=======
+                font-size:30px;
+
                 font-size: 100%;
->>>>>>> e00046b4c4825254af29f7d4f46caed243ded095
+
                 color: white;
                 margin: auto;
             }
             p{
                 text-align:center;
-<<<<<<< HEAD
                 margin: 10px;
                 color: rgb(248, 248, 248);
                 font-size:15px;
@@ -253,7 +190,6 @@ body{
                 margin-bottom: 10px;
             }
             a{  padding: 5px;
-=======
                 margin: 40px;
                 color: rgb(248, 248, 248);
                 font-size:15px;
@@ -261,16 +197,11 @@ body{
                 margin-bottom: 30px;
             }
             a{  
->>>>>>> e00046b4c4825254af29f7d4f46caed243ded095
                 text-decoration: none;
                 padding: 5px;
                 color: rgba(49, 145, 180, 0.788);
                 &:hover{
-<<<<<<< HEAD
-                    margin: 10px;
-=======
                     margin: 20px;
->>>>>>> e00046b4c4825254af29f7d4f46caed243ded095
                     border-radius: 30px;
                     background-color: rgb(0, 247, 255);
                     opacity: 0.6; 
@@ -280,47 +211,6 @@ body{
         }
 }}
 /*PAGINA VIDEOS*/
-<<<<<<< HEAD
-.main__video{
-    margin-top: 200px;
-    margin-bottom: 100px;
-    h3{
-        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-        color:rgb(221, 221, 221);
-        text-decoration: underline;
-        text-align: center;
-        
-        margin-top: 80px;
-        margin-bottom: 100px;
-        padding: auto;
-    }
-    
-}
-.image-gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-gap: 20px;
-    padding: 20px;
-}
-
-.image {
-    overflow: hidden;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.image img {
-    width: 100%;
-    height: 100%;
-    display: block;
-        &:hover{
-            background-color: rgb(0, 247, 255);
-            opacity: 0.6; 
-            color: rgba(0, 0, 0, 0.957);
-        }
-}
-=======
->>>>>>> e00046b4c4825254af29f7d4f46caed243ded095
 
 /* PAGINA DE LANZAMIENTOS*/
 .lanzamientos{
