@@ -88,8 +88,6 @@ body{
             height: 300px;
             object-fit: cover;
             object-position: center;
-        }&:hover{
-            opacity: .4;
         }
         .card-body{
             text-align: center;
@@ -214,12 +212,16 @@ body{
               p {
                 border-radius: 20px;
                 background-color: rgba(25, 55, 189, 0.233);
-                color: rgba(0, 241, 169, 0.692);
+                color: rgb(2, 255, 221);
                 margin-top: 10px;
-                font-size: 1.5rem;             
+                font-size: 1.5rem;    
+                &:hover{
+                    background: rgb(16, 151, 57);
+                } 
               }
               a{
                 text-decoration: none;
+                
               }
           }
       }
