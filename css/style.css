@@ -428,8 +428,16 @@ form button:hover, form button .links > a:hover {
   font-size: 20px;
 }
 .footer .footer-content .footer-section p {
-  margin: 10px;
+  margin: 20px;
   font-size: 15px;
+}
+.footer .footer-content .footer-section i {
+  color: black;
+  padding: 5px;
+  transition: all 1s;
+}
+.footer .footer-content .footer-section i:hover {
+  transform: scale(1.5);
 }
 .footer .footer-bottom {
   font-size: 15px;
