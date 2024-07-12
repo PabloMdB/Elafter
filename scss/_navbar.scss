@@ -13,4 +13,19 @@
 /*LOGO DE PAGINA*/
 .imagenLogo{
     width: 100px;
-}}
+    animation-duration: 3s;
+    animation-name: logo;
+    animation-iteration-count: infinite;
+}
+@keyframes logo{
+    0%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0.5;
+    }
+}
+}
