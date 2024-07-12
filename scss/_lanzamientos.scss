@@ -1,26 +1,23 @@
 .lanzamientos{
     display: flex;
     align-items:center;
-    
     flex-direction:column;
     color: rgb(255, 255, 255);
     background-image: linear-gradient(
         0deg,
         rgb(0, 0, 0),
         rgba(239, 227, 227, 0)
-    ),url(../Imagenes/sonar23\ \(1\).jpg) 
+    ),url(../Imagenes/fondo) 
     ;
-    background-repeat: repeat;
-    
-    background-size:cover;
+    background-size:20%;
         h1{
             font-family:fantasy;
-            color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
             text-align: center;
             text-decoration: underline;
             font-size:9vw;
-            margin-top: 150px;
-            margin-bottom: 120px;
+            margin-top: 250px;
+            margin-bottom: 250px;
         }
         .titulo_lanzamiento{
             font-size: 1px;
@@ -32,11 +29,10 @@
         }
         .image_lanzamiento{
             border-radius: 20px;
-            img{
-                padding: 10px;
+            img{padding: 40px;
                 height:100%  ;
                 width: 100%;
-                border-radius: 30px;
+                border-radius: 100px;
             }
             h2{
                 margin: 20px 0px;
@@ -46,25 +42,27 @@
                 font-size:4vh;
             }
             p{
-               padding: 20px;
-                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               
+                padding: 20px;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                 text-align: center;
-                color: rgb(226, 223, 223);
+                color: rgb(247, 247, 247);
                 font-size:3vh;
             }
             .center{
                 text-align: center;
                 margin-bottom: 50px;
                     .escuchalo{
-                        color: $coloruno;
+                        background-color: rgb(0, 0, 0);
+                        color: $coloruno ;
                         text-decoration: none;
                         padding: 10px;
                         height:100%  ;
                         width: 100%;
                         border-radius: 30px;
                         &:hover{
-                            background: rgb(0, 17, 255);
-                            color: black;
+                            background: rgba(0, 0, 0, 0.452);
+                            color: $coloruno;
                         }
                     }
             }
