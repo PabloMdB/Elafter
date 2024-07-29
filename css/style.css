@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0;
   margin: 0;
@@ -10,71 +11,65 @@ body {
 }
 
 .navbar {
-  opacity: 0.85;
-  background: black;
+  opacity: 0.9;
+  background: rgb(204, 197, 197);
   /*LOGO DE PAGINA*/
 }
 .navbar .nav-link {
-  font-family: monospace;
-  border-radius: 15px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: rgb(0, 0, 0);
 }
 .navbar .nav-link:hover {
-  background: rgba(65, 67, 71, 0.703);
-  border-radius: 15px;
+  color: orange;
 }
 .navbar .imagenLogo {
-  width: 100px;
+  border-radius: 5px;
+  margin-left: 20px;
+  width: 130px;
   animation-duration: 3s;
   animation-name: logo;
   animation-iteration-count: infinite;
 }
-@keyframes logo {
-  0% {
-    opacity: 0.5;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0.5;
-  }
-}
 
-.main {
+.primer__inicio {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: rgb(255, 255, 255);
   background-image: linear-gradient(0deg, rgb(0, 0, 0), rgba(239, 227, 227, 0)), url(../Imagenes/fiesta.jpg);
+  margin-top: 94px;
   background-repeat: no-repeat;
   background-position: center;
 }
-.main .inicio__bienvenidos {
+.primer__inicio .inicio__bienvenidos {
+  text-shadow: 5px 5px 2px black;
   font-family: fantasy;
   color: rgb(221, 219, 219);
   font-style: initial;
   text-align: center;
   font-size: 10vw;
-  margin-top: 200px;
+  margin-top: 150px;
 }
-.main .parrafo {
+.primer__inicio .parrafo {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
   font-size: 1.2em;
   text-align: center;
 }
-.main .botonInicio {
+.primer__inicio .btn {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   background-color: rgb(103, 98, 98);
   color: rgba(0, 0, 0, 0.701);
-  margin-top: 30%;
-  height: 30px;
+  margin-top: 30px;
+  height: 25px;
   padding: 0 20px 0 20px;
-  border-radius: 10px;
-  font-size: 10px auto;
+  border-radius: 8px;
+  font-size: 15px;
 }
-.main .botonInicio:hover {
+.primer__inicio .btn:hover {
   opacity: 0.7;
-  background: rgb(10, 5, 5);
-  color: rgb(0, 238, 255);
+  background: rgb(253, 250, 250);
+  color: black;
 }
 
 /*ARTISTAS DESTACADOS INICIO*/
@@ -109,8 +104,8 @@ body {
   text-align: center;
   font-size: 20px;
 }
-.segundo__inicio .card .card-body p {
-  padding: 14px;
+.segundo__inicio .card .card-body .card-text {
+  padding: 20px;
   color: rgb(250, 250, 250);
   border: 20px;
   justify-content: space-evenly;
@@ -131,96 +126,210 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  margin-top: 94px;
 }
 .eventos h1 {
+  text-shadow: 3px 3px 4px black;
   font-family: fantasy;
-  color: rgb(252, 249, 249);
+  color: rgb(174, 194, 193);
   font-style: initial;
   text-align: center;
-  font-size: 8vw;
+  font-size: 7.5vw;
   margin-top: 200px;
 }
 .eventos p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   margin-bottom: 200px;
-  font-size: 3vw;
+  font-size: 2.3vw;
   padding: 30px;
   text-align: center;
 }
 
-.segundo_evento h2 {
-  font-family: Arial, Helvetica, sans-serif;
-  color: rgb(239, 239, 239);
+.segundo__evento {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+.segundo__evento h2 {
+  text-shadow: 1px 2px 1px rgba(20, 18, 18, 0.733);
+  font-family: fantasy;
+  color: rgb(145, 137, 137);
   text-decoration: underline;
   text-align: center;
   font-size: 8vw;
+  margin-top: 0px;
+  margin-bottom: 100px;
 }
-.segundo_evento .image_eventos {
-  text-align: center;
-  margin-bottom: 30px;
+.segundo__evento .noticia {
+  display: flex;
+  margin-bottom: 50px;
 }
-.segundo_evento .image_eventos .imagenEvento {
-  padding: 10px;
-  height: 100%;
-  width: 100%;
+.segundo__evento .noticia .imagen {
+  flex: 0 0 40%;
+  margin-right: 20px;
+}
+.segundo__evento .noticia .imagen img {
+  width: 100%; /* Imagen ocupa todo el ancho de su contenedor */
+  height: 300px; /* Altura automática */
   border-radius: 30px;
 }
-.segundo_evento .image_eventos .imagenEvento a {
-  font-size: 20px;
+.segundo__evento .noticia .contenido {
+  flex: 1;
+  padding: 20px 20px;
+  margin-top: 0px;
+  margin-bottom: 0px; /* El contenido ocupa todo el espacio restante */
 }
-.segundo_evento .image_eventos h3 {
-  color: white;
-  font-size: 20px;
+.segundo__evento .noticia .contenido h3 {
+  margin-top: 2px;
+  color: rgb(253, 250, 250);
+  font-size: 2.8vw; /* Tamaño del título */
+  text-align: center;
 }
-.segundo_evento .image_eventos p {
-  margin: 50px;
-  color: rgb(231, 231, 231);
+.segundo__evento .noticia .contenido p {
+  color: rgb(254, 255, 255);
+  font-size: 2.2vh;
+  text-align: center;
+  line-height: 1.2; /* Espaciado entre líneas del párrafo */
 }
-.segundo_evento .image_eventos a {
-  font-style: unset;
-  color: rgb(7, 6, 6);
-  background: rgb(0, 238, 255);
+.segundo__evento .noticia .contenido .link__evento {
+  font-size: 15px;
+  padding: 5px;
+  position: relative;
+  left: 40%;
+  background-color: #ddd;
+  border-radius: 25px;
+  color: #000000;
+  text-decoration: none;
+  animation-duration: 3s;
+  animation-name: linkEvento;
+  animation-iteration-count: infinite;
+}
+.segundo__evento .noticia .contenido .link__evento:hover {
   border-radius: 20px;
-  padding: 10px;
-  margin-bottom: 20px;
+  background-color: rgb(24, 23, 22);
+  color: #195f64;
 }
-.segundo_evento .image_eventos a:hover {
-  background: rgb(0, 247, 255);
+@keyframes linkEvento {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 2;
+  }
+  100% {
+    opacity: 0.3;
+  }
 }
 
-.main__video {
-  text-align: justify;
+.nuevos-eventos {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
   margin-top: 100px;
 }
-.main__video h1 {
-  text-align: center;
+.nuevos-eventos .evento {
   margin-bottom: 50px;
+  border-bottom: 1px solid #ddd; /* Línea divisoria entre eventos */
+}
+.nuevos-eventos .evento h4 {
+  text-decoration: underline;
+  font-family: monospace;
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+.nuevos-eventos .evento p {
+  font-size: 0.9rem;
+  line-height: 1.1;
+}
+.nuevos-eventos .evento .fecha {
+  float: right;
+  font-style: italic;
+  color: #eceaea;
+}
+
+/* Media query para hacer responsive */
+@media (max-width: 768px) {
+  .segundo__evento .noticia {
+    flex-direction: column;
+  }
+  .segundo__evento .noticia .imagen {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .segundo__evento .noticia .contenido {
+    margin-bottom: 0px;
+    text-align: center;
+  }
+  .segundo__evento .noticia .contenido .link__evento {
+    position: absolute;
+    right: 33%;
+    color: #195f64;
+    text-decoration: none;
+  }
+  .segundo__evento .noticia .contenido .link__evento:hover {
+    border-radius: 20px;
+    background-color: rgb(24, 23, 22);
+    color: #195f64;
+  }
+  .evento {
+    margin-bottom: 70px;
+  }
+  .evento h4 {
+    font-size: 1.2rem;
+  }
+  .evento p {
+    font-size: 0.9rem;
+    color: rgb(241, 241, 241);
+  }
+  .evento .fecha {
+    text-align: right;
+    margin-top: 5px;
+  }
+}
+.main__video {
+  text-align: justify;
+  margin-top: 250px;
+}
+.main__video h1 {
+  text-shadow: 1px 1px 4px white;
+  text-align: center;
   font-size: 10vw;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-decoration: underline rgb(184, 192, 192);
   color: rgb(153, 180, 171);
 }
+.main__video h2 {
+  margin-bottom: 180px;
+  text-align: center;
+  font-size: 3vw;
+  font-family: monospace;
+  color: rgb(245, 243, 243);
+}
 .main__video .galeria {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  gap: 25px;
+  margin: 20px;
 }
 .main__video .galeria .imagen {
   text-align: center;
 }
 .main__video .galeria .imagen img {
-  border-radius: 10px;
+  border-radius: 5px;
   max-width: 100%;
   height: 250px;
 }
 .main__video .galeria .imagen p {
-  border-radius: 20px;
-  background-color: rgba(25, 55, 189, 0.233);
+  border-radius: 30px;
+  background-color: rgba(52, 132, 185, 0.233);
   color: rgb(0, 238, 255);
   margin-top: 10px;
   font-size: 1.5rem;
 }
 .main__video .galeria .imagen p:hover {
-  background: rgb(16, 151, 57);
+  background: rgb(212, 142, 12);
+  color: black;
 }
 .main__video .galeria .imagen a {
   text-decoration: none;
@@ -231,64 +340,77 @@ body {
   align-items: center;
   flex-direction: column;
   color: rgb(255, 255, 255);
-  background-image: linear-gradient(0deg, rgb(0, 0, 0), rgba(239, 227, 227, 0)), url(../Imagenes/fondo);
+  background-image: linear-gradient(0deg, rgb(0, 0, 0), rgba(0, 0, 0, 0));
   background-size: 20%;
+  margin-top: 94px;
 }
 .lanzamientos h1 {
+  text-shadow: 3px 4px 2px rgb(42, 90, 92);
   font-family: fantasy;
-  color: rgb(255, 255, 255);
+  color: #ffffff;
   text-align: center;
   text-decoration: underline;
   font-size: 9vw;
-  margin-top: 250px;
-  margin-bottom: 250px;
+  margin-top: 150px;
+  margin-bottom: 200px;
 }
-.lanzamientos .titulo_lanzamiento {
-  font-size: 1px;
-  text-decoration: none;
-  color: rgb(148, 36, 124);
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-.lanzamientos .image_lanzamiento {
+.lanzamientos .gallery_lanzamiento {
+  padding: 50px;
   border-radius: 20px;
+  width: 100%;
+  height: 100%;
 }
-.lanzamientos .image_lanzamiento img {
-  padding: 40px;
+.lanzamientos .gallery_lanzamiento img {
   height: 100%;
   width: 100%;
-  border-radius: 100px;
+  border-radius: 40px;
 }
-.lanzamientos .image_lanzamiento h2 {
+.lanzamientos .gallery_lanzamiento h2 {
+  text-shadow: 3px 2px 2px black;
   margin: 20px 0px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-align: center;
   color: rgb(226, 223, 223);
   font-size: 4vh;
 }
-.lanzamientos .image_lanzamiento p {
+.lanzamientos .gallery_lanzamiento p {
+  text-shadow: 2px 2px rgb(0, 0, 0);
   padding: 20px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-align: center;
   color: rgb(247, 247, 247);
   font-size: 3vh;
 }
-.lanzamientos .image_lanzamiento .center {
+.lanzamientos .gallery_lanzamiento .center {
   text-align: center;
   margin-bottom: 50px;
 }
-.lanzamientos .image_lanzamiento .center .escuchalo {
-  background-color: rgb(0, 0, 0);
+.lanzamientos .gallery_lanzamiento .center .escuchalo {
+  background-color: rgb(48, 47, 47);
   color: rgb(0, 238, 255);
   text-decoration: none;
   padding: 10px;
   height: 100%;
   width: 100%;
   border-radius: 30px;
+  animation-duration: 3s;
+  animation-name: escuchalo;
+  animation-iteration-count: infinite;
 }
-.lanzamientos .image_lanzamiento .center .escuchalo:hover {
-  background: rgba(0, 0, 0, 0.452);
+.lanzamientos .gallery_lanzamiento .center .escuchalo:hover {
+  background: hsla(0, 4%, 27%, 0.562);
   color: rgb(0, 238, 255);
+}
+@keyframes escuchalo {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 2;
+  }
+  100% {
+    opacity: 0.3;
+  }
 }
 
 .container {
@@ -316,6 +438,7 @@ body {
   gap: 25px;
 }
 .container .box-info p {
+  text-align: justify;
   font-size: 1rem;
 }
 .container .box-info p i {
@@ -425,6 +548,7 @@ form button:hover, form button .links > a:hover {
   color: #cccccc;
   padding: 30px 0;
   text-align: center;
+  border-top: 2px solid #ddd;
 }
 .footer .footer-content {
   margin-bottom: 20px;
@@ -438,26 +562,58 @@ form button:hover, form button .links > a:hover {
   padding: 20px, 20px;
   box-sizing: border-box;
 }
-.footer .footer-content .footer-section h3 {
-  font-size: 20px;
+.footer .footer-content .footer-section h2 {
+  font-size: 40px;
 }
 .footer .footer-content .footer-section p {
-  margin: 20px;
-  font-size: 15px;
+  margin: 30px;
+  font-size: 25px;
 }
 .footer .footer-content .footer-section i {
-  color: black;
+  font-size: 35px;
+  color: rgb(255, 252, 252);
   padding: 5px;
   transition: all 1s;
 }
 .footer .footer-content .footer-section i:hover {
   transform: scale(1.5);
 }
-.footer .footer-bottom {
+.footer .footer-derechos {
   font-size: 15px;
   text-align: center;
   padding-top: 20px;
-  border-top: 2px solid #777;
+  border-top: 2px solid #f3eded;
+}
+
+/* Estilos generales */
+.errorUno {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: black;
+  margin: 0;
+  padding: 0;
+}
+
+.error {
+  max-width: 600px;
+  margin: 200px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 2px 2px 3px rgb(32, 146, 118);
+}
+.error h4 {
+  color: rgb(0, 0, 0);
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+.error p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.error a {
+  color: #2782dd;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=style.css.map */

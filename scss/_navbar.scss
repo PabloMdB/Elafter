@@ -1,31 +1,20 @@
 .navbar{
-    opacity: .85;
-    background: black;
-
+    opacity: 0.9;
+    background: rgb(204, 197, 197);
 .nav-link{
-    font-family:monospace;
-    border-radius: 15px;
-}
-.nav-link:hover{
-    background: rgba(65, 67, 71, 0.703);
-    border-radius: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(0, 0, 0);
+    &:hover{
+        color: orange;
+    }
 }
 /*LOGO DE PAGINA*/
 .imagenLogo{
-    width: 100px;
+    border-radius: 5px;
+    margin-left: 20px;
+    width: 130px;
     animation-duration: 3s;
     animation-name: logo;
     animation-iteration-count: infinite;
-}
-@keyframes logo{
-    0%{
-        opacity: 0.5;
-    }
-    50%{
-        opacity: 1;
-    }
-    100%{
-        opacity: 0.5;
-    }
 }
 }

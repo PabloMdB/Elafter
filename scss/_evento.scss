@@ -10,67 +10,166 @@
         0deg,
         rgb(0, 0, 0),
         rgba(239, 227, 227, 0)
-    ),url(../Imagenes/imagenevento.png) 
-    ;
+        ),url(../Imagenes/imagenevento.png) ;
     background-repeat: no-repeat;
     background-position: center;
     background-size:cover;
-    h1{
-        font-family:fantasy;
-        color:rgb(252, 249, 249);
-        font-style:initial;
-        text-align: center;
-        font-size: 8vw;
-        margin-top: 200px;
-    }
-    p{
-        margin-bottom: 200px;
-        font-size: 3vw;
-        padding: 30px;
-        text-align: center;
-    }
-}
-.segundo_evento{
+    margin-top: 94px;
     
-    h2{
-        font-family:Arial, Helvetica, sans-serif;
-        color: rgb(239, 239, 239);
-        text-decoration:underline;
+      h1{ 
+          text-shadow: 3px 3px 4px black;
+          font-family:fantasy;
+          color:rgb(174, 194, 193);
+          font-style:initial;
+          text-align: center;
+          font-size: 7.5vw;
+          margin-top:200px;
+      }
+      p{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-bottom: 200px;
+        font-size: 2.3vw;
+        padding: 30px;        
+        text-align: center;
+      }
+}
+.segundo__evento {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    h2{ 
+        text-shadow: 1px 2px 1px rgba(20, 18, 18, 0.733);
+        font-family:fantasy;
+        color:rgb(145, 137, 137);
+        text-decoration: underline;
         text-align: center;
         font-size: 8vw;
-        }
-        .image_eventos{
-            text-align: center;
-            margin-bottom: 30px;
-            .imagenEvento{
-                padding: 10px;
-                height:100%  ;
-                width: 100%;
-                border-radius: 30px;
-                a{
-                    font-size: 20px;
+        margin-top: 00px;
+        margin-bottom: 100px;}
+      .noticia {
+          display: flex; 
+          margin-bottom: 50px; 
+            .imagen {
+                flex: 0 0 40%; 
+                margin-right: 20px;
+                img {
+                    width: 100%; /* Imagen ocupa todo el ancho de su contenedor */
+                    height: 300px; /* Altura automática */
+                    border-radius: 30px;
+                  }
+              }      
+            .contenido {
+              flex:1;
+              padding: 20px 20px;
+              margin-top: 0px;
+              margin-bottom: 0px; /* El contenido ocupa todo el espacio restante */
+                h3 {
+                  margin-top:2px;
+                  color: rgb(253, 250, 250);
+                  font-size: 2.8vw; /* Tamaño del título */
+                  text-align: center;
                 }
+                p {
+                  color: rgb(254, 255, 255);
+                  font-size: 2.2vh;
+                  text-align: center;
+                  line-height: 1.2; /* Espaciado entre líneas del párrafo */
+                }
+                .link__evento{
+                  font-size: 15px;
+                  padding: 5px;
+                  position: relative; left:40%;
+                  background-color: #ddd;
+                  border-radius: 25px;
+                  color: #000000;
+                  text-decoration: none;
+                  animation-duration: 3s;
+                  animation-name: linkEvento;
+                  animation-iteration-count: infinite;
+                    &:hover{
+                    border-radius: 20px;
+                    background-color: rgb(24, 23, 22);
+                    color: #195f64;
+                    }
+                    @keyframes linkEvento{
+                      0%{
+                          opacity: .3;
+                        }
+                      50%{
+                          opacity: 2;
+                        }
+                      100%{
+                          opacity: .3;
+                        }
+                      }   
+                  }
+              }   
+      }
+}
+.nuevos-eventos {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 20px;
+      margin-top: 100px;
+        .evento {
+          margin-bottom: 50px;
+          border-bottom: 1px solid #ddd; /* Línea divisoria entre eventos */
+            h4 {
+              text-decoration:underline;
+              font-family: monospace;
+              color: white;
+              font-size: 2rem;
+              text-align: center;
             }
-            h3{
-                color: white;
-                font-size: 20px;
+            p {
+              font-size: .9rem;
+              line-height: 1.1;
             }
-            p{
-                margin: 50px;
-                color: rgb(231, 231, 231);
+            .fecha {
+              float: right;
+              font-style: italic;
+              color: #eceaea;
             }
-            a{  font-style:unset;
-                color: rgb(7, 6, 6);
-                background: $coloruno;
-                border-radius: 20px;
-                padding: 10px;
-                margin-bottom: 20px;
-            }
-            a:hover{
-                background: rgb(0, 247, 255);
-            }
-           
-            
-           
+          }
+} 
+
+/* Media query para hacer responsive */
+@media (max-width: 768px) {
+  .segundo__evento{
+    .noticia {
+      flex-direction: column; // Apilar imagen sobre texto en pantallas pequeñas 
+        .imagen {
+          margin-right: 0; // Quitar margen derecho en móviles 
+          margin-bottom: 10px; // Espacio entre imagen y texto en móviles
         }
+        .contenido{
+          margin-bottom: 0px;
+          text-align:center;
+            .link__evento{
+              position:absolute; right: 33%;
+              color: #195f64;
+              text-decoration: none;
+              &:hover{
+              border-radius: 20px;
+              background-color: rgb(24, 23, 22);
+              color: #195f64;
+              }
+            }
+          }
+      }
+    } 
+    .evento {
+        margin-bottom: 70px;
+          h4 {
+            font-size: 1.2rem;
+          }
+          p {
+            font-size: 0.9rem;
+            color: rgb(241, 241, 241);
+          }
+          .fecha {
+            text-align: right;
+            margin-top: 5px;
+          }
+      }
 }
