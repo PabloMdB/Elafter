@@ -113,17 +113,17 @@
       margin-top: 100px;
         .evento {
           margin-bottom: 50px;
-          border-bottom: 1px solid #ddd; /* Línea divisoria entre eventos */
+          border-bottom: 1px solid #d1cfcf; /* Línea divisoria entre eventos */
             h4 {
               text-decoration:underline;
               font-family: monospace;
-              color: white;
+              color: rgb(248, 248, 248);
               font-size: 2rem;
               text-align: center;
             }
-            p {
-              font-size: .9rem;
-              line-height: 1.1;
+            p{
+              font-family: 20px;
+              color: rgb(233, 233, 233);
             }
             .fecha {
               float: right;
